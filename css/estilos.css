@@ -1,0 +1,85 @@
+/* comentario en sass y en css*/
+/*Importar los archivos secundarios*/
+/* Nexting*/
+header {
+  font-family: "Roboto", sans-serif; }
+  header h1 {
+    margin: 10px;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: black; }
+  header div {
+    margin: 10px;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    align-items: center; }
+  header section {
+    display: flex;
+    align-items: center;
+    text-align: center; }
+    header section h3 {
+      display: flex;
+      align-items: center;
+      text-align: center; }
+    header section p {
+      display: flex;
+      align-items: center;
+      text-align: justify; }
+  header section {
+    display: block;
+    align-items: center;
+    text-align: center; }
+    header section div {
+      display: block;
+      align-items: center;
+      text-align: center; }
+      header section div iframe {
+        display: block;
+        align-items: center;
+        text-align: center; }
+
+/* estilos de main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding: 1.5rem; }
+  main h2 {
+    display: block;
+    text-align: left; }
+  main span {
+    display: block;
+    text-align: left; }
+  main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 1.5rem; }
+    main section div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify;
+      padding: 1.5rem; }
+    main section h3 {
+      margin: 10px; }
+  main img {
+    margin: 10px; }
+
+/* estilos del footer */
+footer {
+  display: block;
+  text-align: center; }
+  footer nav {
+    display: block;
+    text-align: center; }
+    footer nav ul {
+      display: block;
+      text-align: center; }

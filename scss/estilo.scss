@@ -1,0 +1,127 @@
+//Comentario en sass
+/* comentario en sass y en css*/
+/*Importar los archivos secundarios*/
+@import "vars/variables";
+/* Nexting*/  
+header {
+    font-family: $font-family-principal;
+    h1 {
+    margin: 10px;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    }
+    div {
+    margin: 10px;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    align-items: center;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        h3 {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+        }
+        p {
+            display: flex;
+            align-items: center;
+            text-align: justify;
+        }
+    }
+    section {
+        display: block;
+        align-items: center;
+        text-align: center;
+        
+        div {
+            display: block;
+            align-items: center;
+            text-align: center;
+                        
+            iframe {
+                display: block;
+                align-items: center;
+                text-align: center;
+                
+            }
+                       
+        } 
+        
+
+    }
+
+}
+
+
+/* estilos de main */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:  justify;
+    padding: 1.5rem;
+
+    h2 {    
+        display: block;
+        text-align: left;
+    }
+    span {    
+        display: block;
+        text-align: left;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        padding: 1.5rem;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+            padding: 1.5rem;
+                   
+        }
+        
+        h3 {
+            margin: 10px;        
+        }
+    }
+
+    img {
+        margin: 10px;
+    }
+    
+}
+/* estilos del footer */
+
+footer {
+    display: block;
+    text-align: center;
+    nav {
+        display: block;
+        text-align: center;
+        ul {
+            display: block;
+            text-align: center;
+            }
+        
+        }
+}
+
+
